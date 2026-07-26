@@ -23,6 +23,40 @@ Gift Next is a responsive e-commerce website developed using HTML, CSS, JavaScri
 
 ## Project Status
 Currently under development with continuous feature improvements.
+## 🌐 Live Demo
+
+https://nj22112001-netizen.github.io/Gift-Next/
+
+## Screenshots
+
+### 🏠 Home Page
+![Home](image/home.png)
+
+### 🛍️ Products Page
+![Products](image/products.png)
+
+### 🛒 Cart Page
+![Cart](image/cart.png)
+
+### 💳 Checkout Page
+![Checkout](image/checkout.png)
+
+### 👨‍💼 Admin Panel
+![Admin](image/admin.png)
+
+## Future Improvements
+
+- Payment Gateway Integration
+- Wishlist Feature
+- Product Search & Filters
+- Order Tracking
+- Email Notifications
+
+## Developer
+
+**Nancy Jain**
+
+GitHub: https://github.com/nj22112001-netizen
 ## Screenshots
 
 ### Home Page
