@@ -23,3 +23,19 @@ Gift Next is a responsive e-commerce website developed using HTML, CSS, JavaScri
 
 ## Project Status
 Currently under development with continuous feature improvements.
+## Screenshots
+
+### Home Page
+![Home Page](images/home.png)
+
+### Products Page
+![Products Page](images/products.png)
+
+### Cart Page
+![Cart Page](images/cart.png)
+
+### Checkout Page
+![Checkout Page](images/checkout.png)
+
+### Admin Panel
+![Admin Panel](images/admin.png)
