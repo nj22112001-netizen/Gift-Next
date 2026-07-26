@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gift Next</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+    <div class="logo-box">
+        <img src="logo.png" class="logo" alt="Gift Next">
+        <h2>GIFT-NEXT</h2>
+    </div>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search gifts...">
+    </div>
+
+    <div class="menu-toggle" id="menuToggle">
+    ☰
+</div>
+    
+
+    <nav id="navbar">
+        <a href="#">Home</a>
+        <a href="#">Women</a>
+        <a href="#">Couple</a>
+        <a href="#">Friends</a>
+        <a href="my-orders.html">
+📦 My Orders
+</a>
+      <a href="login.html" id="loginLink">
+        Login
+    </a>
+        
+       <a href="cart.html" id="cartLink">Cart 🛒</a>
+    </nav>
+</header>
+<section class="hero">
+
+    <div class="hero-content">
+        <h1>Find the Perfect Gift 🎁</h1>
+        <p>Trendy Gifts for Women, Couples & Friends <br/> "Available for TMU campus delivery only"
+        </p>
+
+        <button>Shop Now</button>
+    </div>
+
+    <img src="hero.png" class="hero-image">
+
+</section>
+<section class="categories">
+    <h2>Shop by Category</h2>
+
+    <div class="category-box">
+        <div class="card">👩<br>Women's Gifts</div>
+        <div class="card">💑<br>Couple Gifts</div>
+        <div class="card">👫<br>Friends Gifts</div>
+        <div class="card">🎉<br>Birthday Gifts</div>
+    </div>
+</section>
+<section class="products">
+
+    <h2>Trending Gifts</h2>
+
+  <div class="product-grid" id="productGrid">
+
+</div>
+
+        
+       
+
+        
+    </div>
+
+</section>
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-box">
+            <h2>🎁 Gift Next</h2>
+            <p>Premium gifts for Women, Couples & Friends.</p>
+        </div>
+
+        <div class="footer-box">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+            <a href="#">Login</a>
+        </div>
+
+        <div class="footer-box">
+            <h3>Contact</h3>
+            <p>📞 +918435516357</p>
+            <p>📧 support@giftnext.com</p>
+            <p>📍 TMU India</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copyright">
+        © 2026 Gift Next | All Rights Reserved
+    </p>
+
+</footer>
+<!-- Login Modal -->
+<div id="loginModal" class="login-modal">
+
+    <div class="login-box">
+
+        <span id="closeModal">&times;</span>
+
+        <h2>Login to Gift-Next</h2>
+
+        <input type="email" id="email" placeholder="Enter Email">
+
+        <input type="password" id="password" placeholder="Enter Password">
+
+        <button id="loginUserBtn">Login</button>
+
+        <button id="signupBtn">Create Account</button>
+
+    </div>
+
+</div>
+<script type="module" src="script.js"></script>
+<script type="module" src="navbar.js"></script>
+<!-- Floating Contact Button -->
+<div class="contact-menu">
+
+    <button id="contactToggle">💬</button>
+
+    <div class="contact-options">
+
+        <a href="https://wa.me/918435516357?text=Hi%20Gift%20Next!%20I%20want%20to%20know%20about%20your%20products."
+           target="_blank"
+           class="whatsapp-btn">
+            💬 WhatsApp
+        </a>
+
+        <a href="tel:+918435516357" class="call-btn">
+            📞 Call
+        </a>
+
+        <a href="giftnext@gmail.com" class="email-btn">
+            ✉️ Email
+        </a>
+
+        <a href="https://instagram.com/your_username"
+           target="_blank"
+           class="insta-btn">
+            📷 Instagram
+        </a>
+
+    </div>
+
+</div>
+
+<script src="contact.js"></script>
+</body>
+</html>

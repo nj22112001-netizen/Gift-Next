@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Gift Next - Payment</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="payment-container">
+
+    <div class="payment-box">
+
+        <h1>💳 Payment</h1>
+
+        <p class="payment-text">
+            Please select your payment method.
+        </p>
+
+        <div class="payment-options">
+
+            <label class="payment-card">
+
+                <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="COD"
+                    checked
+                >
+
+                <span>🚚 Cash On Delivery</span>
+
+            </label>
+
+            <label class="payment-card">
+
+                <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="UPI"
+                >
+
+                <span>📱 UPI Payment</span>
+
+            </label>
+
+            <label class="payment-card">
+
+                <input
+                    type="radio"
+                    name="paymentMethod"
+                    value="ONLINE"
+                >
+
+                <span>💳 Online Payment</span>
+
+            </label>
+
+        </div>
+
+        <div id="upiSection" style="display:none; margin-top:25px;">
+
+            <h3>Scan QR & Pay</h3>
+
+            <img
+                src="qr.png"
+                alt="UPI QR"
+                width="220"
+            >
+
+            <p>
+                Scan the QR code and complete your payment.
+            </p>
+
+        </div>
+
+        <div class="payment-total">
+
+            <h2>
+                Total Amount :
+                <span id="paymentTotal">
+                    ₹0
+                </span>
+            </h2>
+
+        </div>
+
+        <button id="confirmPayment">
+
+            ✅ Confirm Order
+
+        </button>
+
+        <br><br>
+
+        <a href="cart.html">
+
+            ⬅ Back To Cart
+
+        </a>
+
+    </div>
+
+</div>
+
+<script type="module" src="payment.js"></script>
+
+</body>
+
+</html>

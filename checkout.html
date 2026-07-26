@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gift Next - Checkout</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="checkout-container">
+
+    <!-- Left Side -->
+    <div class="checkout-left">
+
+        <h1>🎁 Secure Checkout</h1>
+        <p>Complete your order in just a few steps.</p>
+
+        <form id="checkoutForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="👤 Full Name"
+                required
+            >
+
+            <input
+                type="tel"
+                id="phone"
+                placeholder="📞 Mobile Number"
+                required
+            >
+
+            <textarea
+                id="address"
+                placeholder="🏠 Full Address"
+                required
+            ></textarea>
+
+            <div class="row">
+
+                <input
+                    type="text"
+                    id="city"
+                    placeholder="🏙️ City"
+                    required
+                >
+
+                <input
+                    type="text"
+                    id="pincode"
+                    placeholder="📮 Pincode"
+                    required
+                >
+
+            </div>
+
+            <h3>💳 Payment Method</h3>
+
+            <label>
+                <input
+                    type="radio"
+                    name="payment"
+                    value="COD"
+                    checked
+                >
+                Cash on Delivery
+            </label>
+
+            <br><br>
+
+            <label>
+                <input
+                    type="radio"
+                    name="payment"
+                    value="UPI"
+                >
+                UPI Payment
+            </label>
+
+            <br><br>
+
+            <label>
+                <input
+                    type="radio"
+                    name="payment"
+                    value="ONLINE"
+                >
+                Online Payment
+            </label>
+
+            <br><br>
+
+            <div id="qrBox" style="display:none; text-align:center;">
+
+                <h3>📱 Scan & Pay</h3>
+
+                <img
+                    src="qr.png"
+                    alt="UPI QR"
+                    width="220"
+                >
+
+                <p>Scan the QR and complete payment.</p>
+
+            </div>
+
+            <button type="submit">
+                ✅ Place Order
+            </button>
+
+        </form>
+
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="checkout-right">
+
+        <h2>🛒 Order Summary</h2>
+
+        <div id="orderItems"></div>
+
+        <div class="summary-box">
+
+            <div class="summary-row">
+
+                <span>Subtotal</span>
+
+                <span id="subtotal">₹0</span>
+
+            </div>
+
+            <div class="summary-row">
+
+                <span>Delivery</span>
+
+                <span style="color:green;">FREE</span>
+
+            </div>
+
+            <hr>
+
+            <div class="summary-row total">
+
+                <span>Total</span>
+
+                <span id="grandTotal">₹0</span>
+
+            </div>
+
+        </div>
+
+        <div class="benefits">
+
+            <p>🚚 Free Delivery</p>
+
+            <p>🔒 100% Secure Payment</p>
+
+            <p>🎁 Premium Gift Packing</p>
+
+            <p>⭐ Trusted Store</p>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script type="module" src="checkout.js"></script>
+
+</body>
+
+</html>

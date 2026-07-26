@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gift Next Admin</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="admin-container">
+
+<h1>🎁 Gift Next Admin Panel</h1>
+<a href="admin-orders.html" class="admin-btn">
+    📦 View Orders
+</a>
+<div class="dashboard">
+
+    <div class="dash-card">
+        <h2 id="totalProducts">0</h2>
+        <p>Products</p>
+    </div>
+
+    <div class="dash-card">
+        <h2 id="totalOrders">0</h2>
+        <p>Orders</p>
+    </div>
+
+    <div class="dash-card">
+        <h2 id="pendingOrders">0</h2>
+        <p>Pending</p>
+    </div>
+
+    <div class="dash-card">
+        <h2 id="totalRevenue">₹0</h2>
+        <p>Revenue</p>
+    </div>
+
+</div>
+
+<input type="text" id="name" placeholder="Product Name">
+
+<input type="number" id="price" placeholder="Price">
+
+<input type="text" id="image" placeholder="Image URL or Image Name">
+
+<input type="text" id="category" placeholder="Category">
+
+<input type="number" id="stock" placeholder="Stock">
+
+<button id="addProduct">
+Add Product
+</button>
+<hr>
+
+
+<h2>📦 All Products</h2>
+<input 
+type="text" 
+id="searchInput" 
+placeholder="🔍 Search Product..."
+>
+
+
+<select id="categoryFilter">
+
+<option value="all">
+All Categories
+</option>
+
+<option value="women">
+Women Gifts
+</option>
+
+<option value="couple">
+Couple Gifts
+</option>
+
+<option value="friend">
+Friend Gifts
+</option>
+
+<option value="birthday">
+Birthday Gifts
+</option>
+
+</select>
+<div id="productList"></div>
+
+</div>
+
+<script type="module" src="admin.js"></script>
+
+</body>
+</html>
